@@ -33,7 +33,7 @@
 }
 
 .about-bgImg-container {
-  height: 50vh;
+  height: 60vh;
   width: 100%;
   background: linear-gradient(to right, rgba(39, 39, 39, 0.2), rgba(39, 39, 39, 0.8)), url("../img/model-3.png");
   background-position: center center;
@@ -51,6 +51,7 @@
 }
 .about-bgImg-container .about__bio-image p {
   font-size: 1.2rem;
+  font-weight: 500;
   margin: 2rem;
 }
 
@@ -73,7 +74,7 @@
 }
 
 .project-bgImg-container {
-  height: 50vh;
+  height: 60vh;
   width: 100%;
   background: linear-gradient(to right, rgba(39, 39, 39, 0.2), rgba(39, 39, 39, 0.8)), url("../img/model-3.png");
   background-position: center center;

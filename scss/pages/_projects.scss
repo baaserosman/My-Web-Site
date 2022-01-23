@@ -3,7 +3,7 @@
 //*****************************************************
 
 .project-bgImg-container {
-  @include bgImage(50vh, $main-bgImage-path);
+  @include bgImage(60vh, $main-bgImage-path);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
