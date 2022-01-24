@@ -9,7 +9,12 @@
 .home-bgImg-container {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.2), rgba(39, 39, 39, 0.8)), url("../img/model-3.png");
+  background: linear-gradient(
+      to right,
+      rgba(39, 39, 39, 0.2),
+      rgba(39, 39, 39, 0.8)
+    ),
+    url("../img/model-3.png");
   background-position: center center;
   background-size: cover;
 }
@@ -35,7 +40,12 @@
 .about-bgImg-container {
   height: 60vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.2), rgba(39, 39, 39, 0.8)), url("../img/model-3.png");
+  background: linear-gradient(
+      to right,
+      rgba(39, 39, 39, 0.2),
+      rgba(39, 39, 39, 0.8)
+    ),
+    url("../img/model-3.png");
   background-position: center center;
   background-size: cover;
   display: flex;
@@ -76,7 +86,12 @@
 .project-bgImg-container {
   height: 60vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.2), rgba(39, 39, 39, 0.8)), url("../img/model-3.png");
+  background: linear-gradient(
+      to right,
+      rgba(39, 39, 39, 0.2),
+      rgba(39, 39, 39, 0.8)
+    ),
+    url("../img/model-3.png");
   background-position: center center;
   background-size: cover;
   display: flex;
@@ -122,20 +137,15 @@
   opacity: 0.7;
 }
 
-.instagram {
-  width: 30px;
-  height: 30px;
-  background: #f09433;
-  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f09433", endColorstr="#bc1888",GradientType=1 );
-}
-
 .contact-bgImg-container {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(to right, rgba(39, 39, 39, 0.2), rgba(39, 39, 39, 0.8)), url("../img/model-3.png");
+  background: linear-gradient(
+      to right,
+      rgba(39, 39, 39, 0.2),
+      rgba(39, 39, 39, 0.8)
+    ),
+    url("../img/model-3.png");
   background-position: center center;
   background-size: cover;
 }
@@ -167,6 +177,45 @@
   color: rgba(255, 255, 0, 0.918);
 }
 
+.twitter {
+  color: #24b5ee;
+}
+
+.facebook {
+  color: blue;
+}
+
+.instagram {
+  width: 30px;
+  height: 30px;
+  background: #f09433;
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f09433", endColorstr="#bc1888",GradientType=1 );
+}
+
 .nav {
   padding: 1rem;
   height: 10vh;
@@ -191,11 +240,17 @@
   color: rgba(255, 255, 0, 0.918);
 }
 
-.link-style a, footer.middle a, footer.vertical .social-icons a, footer.horizontal a {
+.link-style a,
+footer.middle a,
+footer.vertical .social-icons a,
+footer.horizontal a {
   padding: 0.4rem;
   transition: all 1s;
 }
-.link-style a:hover, footer.middle a:hover, footer.vertical .social-icons a:hover, footer.horizontal a:hover {
+.link-style a:hover,
+footer.middle a:hover,
+footer.vertical .social-icons a:hover,
+footer.horizontal a:hover {
   color: rgba(255, 255, 0, 0.918);
 }
 
@@ -359,12 +414,35 @@ h3 {
 }
 
 .instagram {
-  width: 30px;
-  height: 30px;
+  pading: 0;
+  text-align: center;
+  width: 32px;
+  height: 32px;
   background: #f09433;
-  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-  background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -moz-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f09433", endColorstr="#bc1888",GradientType=1 );
 }
 
